@@ -11,6 +11,7 @@ renderTodoList();
 
 function renderTodoList () {
     let todoListHTML = '';
+    
     for(let i = 0; i <todolist.length; i++){
         const todoObject = todolist[i];
         // const name = todoObject.name;

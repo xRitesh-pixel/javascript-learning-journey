@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="styles/11-todo-list.css">
+</head>
+<body>
+    <h1>Todo list</h1>
+    <form class="todo-input-grid" onsubmit="event.preventDefault(); addTodo();">
+        <input placeholder="Add a new todo" class="js-todo-input name-input" required>
+        <input type="date" class="js-due-date-input due-date-input" required>
+        <button type="submit" class="add-todo-button js-add-todo-button">Add</button>
+    </form>
+
+    <div class="js-todo-list todo-grid">text</div>
+
+    <script src="scripts/11-todo-list.js"></script>
+</body>
+</html>

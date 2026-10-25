@@ -8,13 +8,11 @@
 </head>
 <body>
     <h1>Todo list</h1>
-    <div class="todo-input-grid">
-        <input placeholder="Add a new todo" class="js-todo-input name-input">
-        <input type="date" class="js-due-date-input due-date-input">
-        <button onclick="
-        addTodo();
-        " class="add-todo-button">Add</button>
-    </div>
+    <form class="todo-input-grid" onsubmit="event.preventDefault(); addTodo();">
+        <input placeholder="Add a new todo" class="js-todo-input name-input" required>
+        <input type="date" class="js-due-date-input due-date-input" required>
+        <button type="submit" class="add-todo-button">Add</button>
+    </form>
 
     <div class="js-todo-list todo-grid">text</div>
 
