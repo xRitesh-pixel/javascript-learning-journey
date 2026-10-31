@@ -12,6 +12,16 @@ p {
   margin: 0;
 }
 
+.app-error-message {
+  margin: 12px auto;
+  padding: 12px 20px;
+  max-width: 1000px;
+  color: rgb(177, 39, 4);
+  background-color: rgb(255, 246, 244);
+  border: 1px solid rgb(221, 110, 82);
+  border-radius: 4px;
+}
+
 button {
   cursor: pointer;
 }

@@ -78,6 +78,10 @@
   flex-direction: column;
 }
 
+.product-container[hidden] {
+  display: none;
+}
+
 .product-image-container {
   display: flex;
   justify-content: center;
@@ -153,4 +157,9 @@
   width: 100%;
   padding: 8px;
   border-radius: 50px;
+}
+
+.empty-search-message {
+  padding: 30px;
+  text-align: center;
 }

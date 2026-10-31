@@ -156,9 +156,13 @@
 }
 
 .track-package-button {
+  display: inline-block;
   width: 100%;
   font-size: 15px;
   padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {

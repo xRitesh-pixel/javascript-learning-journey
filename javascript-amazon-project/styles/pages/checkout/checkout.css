@@ -119,6 +119,27 @@
   margin-left: 3px;
 }
 
+.js-remove-item {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: inherit;
+}
+
+.js-quantity-select {
+  margin-left: 4px;
+}
+
+.checkout-message {
+  margin: 12px 0;
+  color: rgb(0, 118, 0);
+}
+
+.place-order-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 @media (max-width: 1000px) {
   .delivery-options {
     /* grid-column: 1 means this element will be placed
